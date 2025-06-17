@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class AppTest {
     @Test
@@ -18,5 +19,10 @@ public class AppTest {
             arrayListCities.add(newCity);
         }
         assertEquals(arrayListCities.size(), distinctCities.size());
+    }
+
+    @Test
+    void testTrue(){
+        assertTrue(false);
     }
 }
